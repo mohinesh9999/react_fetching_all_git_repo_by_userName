@@ -211,6 +211,7 @@ function App() {
     </Table>
   </TableContainer>
   <TablePagination
+  align="left"
     rowsPerPageOptions={[5,10, 25, 100]}
     component="div"
     count={rows.length}
